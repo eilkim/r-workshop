@@ -4,3 +4,21 @@ author: "Eileen"
 date: "1/27/2020"
 output: html_document
 ---
+
+# Plots with ggplot 2
+
+We are going to make plots in R using ggplot2 package from the tidyverse
+
+
+We will install these packages: 
+
+- tidyverse
+- readxl
+- here
+
+```{r setup, message=FALSE, warning=FALSE}
+library(tidyverse) # install.packages("tidyverse")
+library(readxl) # install.packages("readxl")
+library(here) # install.packages("here")
+```
+
