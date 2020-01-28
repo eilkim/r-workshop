@@ -80,7 +80,7 @@ inverts_sep <- inverts_unite %>%
            into = c("my_site", "my_year"))
 ```
 
-### `stringr` + `mutate()`
+### stringr::mutate()
 
 mutate can add columns, or change an existing column
 Example: using built-in `trees` dataset with `mutate()` to add 5 to all of the tree heights

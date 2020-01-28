@@ -416,8 +416,8 @@ c(“2016”: “2018”, “2020”)</p>
   separate(col = &quot;site_year&quot;, 
            into = c(&quot;my_site&quot;, &quot;my_year&quot;))</code></pre>
 </div>
-<div id="stringr-mutate" class="section level3">
-<h3><code>stringr</code> + <code>mutate()</code></h3>
+<div id="stringrmutate" class="section level3">
+<h3>stringr::mutate()</h3>
 <p>mutate can add columns, or change an existing column Example: using built-in <code>trees</code> dataset with <code>mutate()</code> to add 5 to all of the tree heights Caps/cases matter. Quotations make it a name; don’t need to use when column name already known, don’t use as part of formula calcs.</p>
 <pre class="r"><code>trees_new &lt;- trees %&gt;%
   mutate(&quot;height_update&quot; = Height + 5)</code></pre>
